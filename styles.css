@@ -1,0 +1,36 @@
+div#container
+{
+	border-style: solid;
+	border-width: 1px;
+	height:600px;
+	width: 860px;
+	background-color: white;
+	position: relative;
+	left:15%;
+	top:2px; 
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.square
+{
+	/*height: 37.5px; /*600/16*/
+	/*width: 53.75px;	/*800/16*/
+	border-style: solid;
+	border-width: 0px;
+	background-color: red;
+	position:relative;
+	top:0;
+	left:0;
+}
+
+body
+{
+	background-color: #ffb380;
+}
+
+button
+{
+	position: relative;
+	left:40%;
+}
